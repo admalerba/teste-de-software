@@ -1,0 +1,16 @@
+Comandos 
+
+pytest -v  => Mais verboso
+pytest -m <nome> => para executar os testes marcados
+pytest -k "Nome do Teste" => Filtra os resultados pelo nome do testes
+pytest -x  => saida rápida
+
+# Importar a biblioteca mark
+from pytest import mark
+
+@mark.<nome>
+@mark.skip()    => pula o teste intencionalmente
+@mark.xfail()   => marca teste como falho intencionalmente
+
+
+pytest --junitxml report.xml    => gera um xml de documentação dos testes realizados

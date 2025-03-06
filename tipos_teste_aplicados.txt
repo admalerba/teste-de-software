@@ -1,0 +1,15 @@
+Testes Unitários: Verificam a funcionalidade de componentes individuais do código.
+
+Testes de Integração: Testam a interação entre diferentes módulos e componentes.
+
+Testes Funcionais: Verificam se o sistema atende aos requisitos especificados.
+
+Testes de Regressão: Garantem que mudanças no código não introduzam novos erros.
+
+Testes de Sistema: Testam o sistema como um todo.
+
+Testes de Aceitação: Validados por usuários finais ou stakeholders.
+
+Testes de Desempenho: Medem a eficiência e a velocidade do sistema.
+
+Testes de Segurança: Garantem que o sistema esteja protegido contra vulnerabilidades.
